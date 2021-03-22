@@ -87,6 +87,14 @@ nav ul li{
 	height: 26px;
 	background: rgba(70,255,0,0.5);
 }
+
+#botoneraslide ul{
+	position: relative;
+	margin: auto;
+	width: 100px;
+	height: 26px;
+	background: rgba(255,255,0,.5);
+}
 /* ----FIN DE BOTONERA SLIDE------ */
 
 /* -------------------------------- */
