@@ -3,6 +3,7 @@
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
+	font-family: sans-serif;
 }
 body{
 	background: url(../img/index.jpg);
@@ -19,6 +20,14 @@ header{
 	height: 83px;
 	background: rgba(255,255,0,0.5);
 }
+#logo{
+	position: absolute;
+	top: 17px;
+	left: 16px;
+	width: 188px;
+	height: 47px;
+	background: rgba(0,0,255,.5);
+}
 /* ----FIN DE CABEZAL------ */
 
 /* -------------------------------- */
@@ -31,7 +40,27 @@ margin: auto;
 width: 1000px;
 height: 45px;
 background: rgba(255,0,0,0.5);
+border-bottom: 1px solid #bcd1cb;
 }
+nav ul{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 45px;
+	background: rgba(0,255,0,.5);
+}
+nav ul li{
+	float: left;
+	width: 124px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	background: rgba(0,0,255,.5);
+	border-right: 1px solid white;
+}
+
 /* ----FIN DE BARRA DE NAVEGACION------ */
 
 /* -------------------------------- */
